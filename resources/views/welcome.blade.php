@@ -1,4 +1,3 @@
-```blade
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -13,37 +12,23 @@
 
 <body class="bg-gray-50 text-gray-900 antialiased overflow-x-hidden">
 
-    {{-- 
-        PAGE BACKGROUND
-        Change the background here for this page.
-
-        Examples:
-        bg-gray-50
-        bg-white
-        bg-[#F5EFE6]
-        bg-gradient-to-br from-gray-100 to-orange-50
-    --}}
     <x-page-background
-    background="bg-gray-50"
-    class="min-h-screen w-full overflow-hidden"
->
+        background="bg-gray-50"
+        class="min-h-screen w-full overflow-hidden"
+    >
 
-        {{-- Navigation --}}
         <x-navbar />
 
-        {{-- Hero Section --}}
-        <x-hero />
+        <main>
+            <x-hero />
 
-        {{-- Features Section --}}
-        <x-features />
+            <x-features />
 
-        {{-- Coffee Menu / Pricing Section --}}
-        <x-pricing />
+            <x-pricing />
 
-        {{-- Customer Testimonials --}}
-        <x-testimonials />
+            <x-testimonials />
+        </main>
 
-        {{-- Footer / Contact Section --}}
         <x-footer />
 
     </x-page-background>
@@ -51,4 +36,3 @@
 </body>
 
 </html>
-
