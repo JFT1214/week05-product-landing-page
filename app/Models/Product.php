@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Product extends Model
+{
+    protected $fillable = [
+        'name',
+        'price',
+        'description',
+        'features',
+        'is_featured',
+    ];
+
+    protected $casts = [
+        'features' => 'array',
+        'is_featured' => 'boolean',
+    ];
+}
