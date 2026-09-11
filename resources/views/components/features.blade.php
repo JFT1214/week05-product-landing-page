@@ -1,18 +1,27 @@
-<section id="features" class="py-20 bg-gray-50 px-4 sm:px-6 lg:px-8">
+<section id="features" class="py-16 sm:py-20 bg-gray-50 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
+
         <!-- Section Header -->
-        <div class="text-center mb-16">
-            <p class="text-orange-600 font-semibold text-sm tracking-widest uppercase mb-4">Why Join Our Community</p>
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        <div class="text-center mb-12 sm:mb-16">
+
+            <p class="text-orange-600 font-semibold text-xs sm:text-sm tracking-widest uppercase mb-3 sm:mb-4">
+                Why Join Our Community
+            </p>
+
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
                 More Than Coffee
             </h2>
-            <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-                We've created a space where great coffee meets authentic community. Discover what makes THE STREET the go-to spot in Pagsanjan.
+
+            <p class="text-base sm:text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+                We've created a space where great coffee meets authentic community.
+                Discover what makes THE STREET the go-to spot in Pagsanjan.
             </p>
+
         </div>
 
         <!-- Features Grid -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
+
             <x-feature-card
                 icon="🎨"
                 title="Modern Ambiance"
@@ -34,7 +43,7 @@
             <x-feature-card
                 icon="🌿"
                 title="Green Sanctuary"
-                description="Lush plants throughout our space create a calming environment. A touch of nature in every corner of DA STREET."
+                description="Lush plants throughout our space create a calming environment. A touch of nature in every corner of THE STREET."
             />
 
             <x-feature-card
@@ -44,10 +53,12 @@
             />
 
             <x-feature-card
-                icon="🎭"
+                icon="🎵"
                 title="Community Events"
-                description="Live music, art displays, and regular events. DA STREET is where culture and coffee collide in Calamba."
+                description="Live music, art displays, and regular events. THE STREET is where culture and coffee collide in Pagsanjan."
             />
+
         </div>
+
     </div>
 </section>
